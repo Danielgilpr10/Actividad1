@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Primer coche
-        Car carro = new Car();
+        Product carro = new Product();
 
         carro.setBrand("Mazda");
         carro.setModel("CX-30");
@@ -14,7 +14,7 @@ public class Main {
         carro.setStock(20);
 
         // Segundo coche
-        Car carro2 = new Car();
+        Product carro2 = new Product();
 
         carro2.setBrand("Toyota");
         carro2.setModel("Corolla");
